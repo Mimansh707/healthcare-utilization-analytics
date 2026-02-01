@@ -39,6 +39,10 @@ How do outpatient utilization patterns differ across facility types and service 
   - Rehabilitation (~31%) and ESRD (~27%) together account for nearly 60% of visits.
 - Facility types show different care patterns:
   - Hospital Outpatient is more diversified across services, while Other Outpatient is more concentrated.
+## Business Insights 
+- **Hospital Outpatient is diagnostics/ancillary-driven:** Laboratory and Radiology together account for a large share of visits, suggesting high operational demand for diagnostic workflows and supporting services.
+- **Other Outpatient is chronic-care concentrated:** Rehabilitation and ESRD dominate visit volume, reflecting repeat-care patterns that may require consistent staffing, scheduling capacity, and continuity-focused operations.
+- **Operational implication:** Different facility types exhibit different service mixes (diversified vs concentrated), so resource planning should be tailored by facility type rather than assuming uniform outpatient demand.
 
 ## How to Run
 ```bash
