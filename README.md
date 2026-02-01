@@ -54,23 +54,16 @@ pip install pandas openpyxl
 # Generate facility-service summary
 python src/10_facility_service_summary.py
 
-## Tableau Dashboard - Outpatient Utilization (CMS 2023)
+## Tableau Dashboard – Outpatient Utilization (CMS 2023)
 
-This dashboard analyzes outpatient facility utilization using **Centers for Medicare & Medicaid Services (CMS) 2023 data**.
-The analysis identifies **high-volume** and **high-intensity** outpatient services using SQL-based aggregation and
-visual storytelling in Tableau.
+This dashboard compares outpatient **volume** (total visits) with **intensity**
+(visits per person) using CMS 2023 data to highlight utilization patterns
+across services.
 
- **Live Tableau Dashboard**  
-https://public.tableau.com/app/profile/mimansha.khadka/viz/TopOutpatientServices-CMS2023/TopOutpatientServicesbyTotalVisitsCMS2023
+ **Live Dashboard**  
+https://public.tableau.com/app/profile/mimansha.khadka/viz/OutpatientUtilizationVolumevsIntensityCMS2023/OutpatientUtilizationVolumevsIntensityCMS2023?publish=yes
 
-## Key Insights
-- Laboratory and diagnostic services account for the highest outpatient visit volumes
-- Chronic-care services such as **ESRD** and **Rehabilitation** exhibit extremely high visits per patient
-- Emergency Room visits are lower in per-person frequency compared to diagnostic and chronic services
-
-## Tools & Technologies
-- **SQLite** – data loading, cleaning, and defensive SQL querying
-- **SQL** – aggregation, filtering, and analytics logic
-- **Tableau** – interactive data visualization and storytelling
-- **CMS Public Healthcare Data**
-
+**Key Insights**
+- Diagnostic services drive the highest outpatient visit volume
+- Chronic services (e.g., ESRD, Rehabilitation) show very high utilization intensity
+- Volume and intensity differ substantially across services, informing care planning
